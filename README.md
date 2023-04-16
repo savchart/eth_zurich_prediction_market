@@ -2,13 +2,19 @@ Project Title: Decentralized Prediction Market with Automated dAPI Sponsor Walle
 
 Description: The project aims to create a decentralized prediction market that allows users to create and participate in prediction markets on various events. The platform uses API3's decentralized API (dAPI) to fetch data from external sources and resolve the prediction markets. The dAPIs require regular funding to their sponsor wallets to function correctly. To ensure smooth operation, this project integrates with the Gelato decentralized automation platform to automate the funding process of multiple dAPI sponsor wallets. 
 
+Run the project:
+Run Scaffold-ETH instruction launch.md
+
+Smart Contract Directory:
+packages/hardhat/contracts
+
 Key Features: 
 
 * Decentralized Prediction Market: Users can create new prediction markets on any topic or event and participate in 
 existing ones by placing bets on the outcome. The smart contract handles all the necessary operations, such as creating new markets, tracking participants' bets, and distributing rewards based on the market outcome. 
 
 * API3 dAPI Integration: The platform uses API3's decentralized APIs (dAPIs) to fetch reliable data from external sources, such as the outcomes of sports events, election results, or financial data. The decentralized nature of dAPIs ensures data integrity and reduces the risk of manipulation. 
-* 
+
 * Automated dAPI Sponsor Wallet Funding: dAPIs require regular funding to their sponsor wallets to function. This project integrates with the Gelato decentralized automation platform to automate the funding process of multiple dAPI sponsor wallets, ensuring uninterrupted access to dAPIs. 
 
 * Customizable Parameters: The project allows the prediction market creator to define parameters such as minimum balance and funding amount for the dAPI sponsor wallets. These parameters can be adjusted to ensure the optimal functioning of the platform. 
